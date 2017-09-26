@@ -10,8 +10,7 @@
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/print.css" rel="stylesheet">
-    <script async src="js/perfmatters.js"></script>
+    <style>@media print{*{background:transparent!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}a,a:visited{color:#444!important;text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}tr,img{page-break-inside:avoid}img{max-width:100%!important}@page{margin:.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}</style>    
   </head>
 
   <body>
@@ -65,5 +64,6 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
+    <script async src="js/perfmatters.js"></script>
   </body>
 </html>
